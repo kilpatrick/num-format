@@ -51,20 +51,20 @@ Number pretty printer for currency, percents, and adding thousands separators.
 ### Examples
 
 ```javascript
-   // Pretty Print: Number  (2 places)'
-    PrettyNumber(1000); // '1,000'
+  // Pretty Print: Number  (2 places)'
+>> PrettyNumber(1000); // '1,000'
 
 
-   // Pretty Print: Number  (1 place)'
+  // Pretty Print: Number  (1 place)'
     PrettyNumber(1234567.89, 1); // '1,234,567.9'
 
 
-   // Pretty Print: Number  (0 places - round up)'
-    PrettyNumber(98.765, 0); // '99'
+  // Pretty Print: Number  (0 places - round up)'
+>> PrettyNumber(98.765, 0); // '99'
 
 
-   // Pretty Print: Number  (0 places - round down)'
-    PrettyNumber(22333.44, 0); // '22,333'
+  // Pretty Print: Number  (0 places - round down)'
+>> PrettyNumber(22333.44, 0); // '22,333'
 ```
 
 
@@ -81,24 +81,24 @@ Number pretty printer for currency, percents, and adding thousands separators.
 ### Examples
 
 ```javascript
-   // Pretty Print: Percentage (2 places)'
-    PrettyPercent(0.8522); // '85.22%'
+  // Pretty Print: Percentage (2 places)'
+>> PrettyPercent(0.8522); // '85.22%'
 
 
-   // Pretty Print: Percentage (Trailing 0)'
-    PrettyPercent(0.135); // '13.50%'
+  // Pretty Print: Percentage (Trailing 0)'
+>> PrettyPercent(0.135); // '13.50%'
 
 
-   // Pretty Print: Percentage (1 place)'
-    PrettyPercent(0.7337, 1); // '73.4%'
+  // Pretty Print: Percentage (1 place)'
+>> PrettyPercent(0.7337, 1); // '73.4%'
 
 
-   // Pretty Print: Percentage (0 places - round up)'
-    PrettyPercent(0.5567, 0); // '56%'
+  // Pretty Print: Percentage (0 places - round up)'
+>> PrettyPercent(0.5567, 0); // '56%'
 
 
-   // Pretty Print: Percentage (0 places - round down)
-    PrettyPercent(0.3312, 0); // '33%'
+  // Pretty Print: Percentage (0 places - round down)
+>> PrettyPercent(0.3312, 0); // '33%'
 ```
 
 
