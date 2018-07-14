@@ -1,0 +1,41 @@
+{
+  "name": "pretty-number",
+  "version": "0.0.0",
+  "description": "Pretty Printer for Currency, Percentages, Numbers",
+  "license": "MIT",
+  "author": {
+    "name": "Chris Kilpatrick",
+    "email": "open@chriskilpatrick.com",
+    "url": "https://github.com/kilpatrick"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kilpatrick/pretty-number"
+  },
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "coveralls": "3.0.2",
+    "eslint": "4.13.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-jasmine": "2.9.2",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "jest": "23.3.0"
+  },
+  "keywords": [
+    "pretty print",
+    "pretty",
+    "print",
+    "prettyprint",
+    "number",
+    "formatter",
+    "percentage",
+    "currency",
+    "locale",
+  ]
+}
