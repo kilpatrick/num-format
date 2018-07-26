@@ -1,6 +1,6 @@
 {
   "name": "pretty-number",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Pretty Printer for Currency, Percentages, Numbers",
   "license": "MIT",
   "author": {

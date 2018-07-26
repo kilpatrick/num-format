@@ -1,4 +1,5 @@
-# Pretty Number
+# Pretty Number &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-blue.svg) [![Coverage Status](https://img.shields.io/coveralls/kilpatrick/pretty-number/master.svg?style=flat)](https://coveralls.io/github/kilpatrick/pretty-number?branch=master) [![CI Status](https://img.shields.io/travis/kilpatrick/pretty-number.svg)](https://travis-ci.org/kilpatrick/pretty-number/) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 
 Number pretty printer for currency, percents, and adding thousands separators.
 

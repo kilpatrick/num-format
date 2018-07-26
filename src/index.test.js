@@ -28,28 +28,28 @@ describe('Pretty Number', () => {
     This may be that Jest uses Node for tests and thus only supports 'en'.
   */
 
-  it('Should Pretty Print: Currency (Locale Override - Japan - integer)', () => {
+  // it('Should Pretty Print: Currency (Locale Override - Japan - integer)', () => {
   //   expect(PrettyCurrency(123456, true, 'ja-JP', 'JPY')).toEqual('¥ 123,456');
   // });
 
   // it('Should Pretty Print: Currency (Locale Override - France - integer)', () => {
-  //   expect(PrettyCurrency(123456, true, 'Fr', 'EUR')).toEqual('123 456 €');
+  //   expect(PrettyCurrency(123456, true, 'fr-FR', 'EUR')).toEqual('123 456 €');
   // });
 
   // it('Should Pretty Print: Currency (Locale Override - France - decimal)', () => {
-  //   expect(PrettyCurrency(123456.78, false, 'Fr', 'EUR')).toEqual('123 456,78 €');
+  //   expect(PrettyCurrency(123456.78, false, 'fr-FR', 'EUR')).toEqual('123 456,78 €');
   // });
 
   // it('Should Pretty Print: Currency (Locale Override - Germany - decimal)', () => {
   //   expect(PrettyCurrency(123456.78, false, 'de-DE', 'EUR')).toEqual('123.456,78 €');
   // });
 
-  // it('Should Pretty Print: Currency (Locale Override - United Kingdom - integer)', () => {
-  //   expect(PrettyCurrency(123456.78, true, 'en-GB', 'GBP')).toEqual('£123,457');
-  // });
+  it('Should Pretty Print: Currency (Locale Override - United Kingdom - integer)', () => {
+    expect(PrettyCurrency(123456.78, true, 'en-GB', 'GBP')).toEqual('£123,457');
+  });
 
-  // it('Should Pretty Print: Currency (Locale Override - United Kingdom - decimal)', () => {
-  //   expect(PrettyCurrency(123456.78, false, 'en-GB', 'GBP')).toEqual('£123,456.78');
+  it('Should Pretty Print: Currency (Locale Override - United Kingdom - decimal)', () => {
+    expect(PrettyCurrency(123456.78, false, 'en-GB', 'GBP')).toEqual('£123,456.78');
   });
 
 
@@ -73,8 +73,8 @@ describe('Pretty Number', () => {
   });
 
   // it('Should Pretty Print: Number (0 places - round down - France)', () => {
-  //   expect(PrettyNumber(123456, 0, 'Fr')).toEqual('123 456');
-  // });
+  //   expect(PrettyNumber(123456, 0, 'Fr')).toEqual('123,456');
+  // }); // This is probably the wrong expected value.
 
 
   /*
