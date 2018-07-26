@@ -94,7 +94,7 @@ Number pretty printer for currency, percents, and adding thousands separators.
 
 ## Locale Support:
 
-In the current version of pretty-number it should be assumed that only `en-US` formatting is supported as Node 7.x has limited locale support.
+In the current version of pretty-number it should be assumed that only `en-US` formatting is supported as Node 8.x has limited locale support.
 
 
 ---
