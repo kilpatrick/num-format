@@ -76,8 +76,8 @@ describe('Pretty Number', () => {
   });
 
   // it('Should Pretty Print: Number (0 places - round down - France)', () => {
-  //   expect(PrettyNumber(123456, 0, 'Fr')).toEqual('123,456');
-  // }); // This is probably the wrong expected value.
+  //   expect(PrettyNumber(123456, 0, 'fr-FR')).toEqual('123 456');
+  // });
 
 
   /*

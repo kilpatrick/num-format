@@ -92,15 +92,10 @@ Number pretty printer for currency, percents, and adding thousands separators.
 ```
 
 
-## Known Issues:
+## Locale Support:
 
-In the current version of pretty-number it should be assumed that only
-`en-US` formatting is supported.
+In the current version of pretty-number it should be assumed that only `en-US` formatting is supported as Node 7.x has limited locale support.
 
-
-## Versioning:
-
-Once released, pretty-number will use [Semantic Versioning](https://semver.org). At the moment it is possible (though unlikely) for breaking changes to be pushed.
 
 ---
-###### Copyright © 2018 Chris Kilpatrick. Released under [MIT License](https://opensource.org/licenses/MIT).
+###### pretty-number uses [Semantic Versioning](https://semver.org). | Copyright © 2018 Chris Kilpatrick. Released under [MIT License](https://opensource.org/licenses/MIT).
