@@ -14,7 +14,9 @@
   },
   "readmeFilename": "README.md",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "typecheck-extended": "1.0.1"
+  },
   "scripts": {
     "test": "jest"
   },
