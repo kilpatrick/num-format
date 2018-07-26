@@ -1,4 +1,7 @@
-import { PrettyCurrency, PrettyNumber, PrettyPercent } from '../PrettyNumber/';
+var PrettyCurrency = require('./').PrettyCurrency;
+var PrettyNumber = require('./').PrettyNumber;
+var PrettyPercent = require('./').PrettyPercent;
+
 
 describe('Pretty Number', () => {
   /*
@@ -25,7 +28,7 @@ describe('Pretty Number', () => {
       JAPAN:    Expected: "¥ 123,456"     Received: "JP¥ 123,456"
       FRANCE:   Expected: "123 456,78 €"  Received: "€ 123,456.78"
       GERMANY:  Expected: "123.456,78 €"  Received: "€ 123,456.78"
-    This may be that Jest uses Node for tests and thus only supports 'en'.
+    Local support in Node 8.x is limited. Support added in Node ver. 10.x for additional locales.
   */
 
   // it('Should Pretty Print: Currency (Locale Override - Japan - integer)', () => {

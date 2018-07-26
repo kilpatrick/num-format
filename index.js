@@ -1,11 +1,10 @@
-import TypeCheck from 'typecheck-extended';
-
+var TypeCheck = require('typecheck-extended');
 
 const defaultLocale = 'en-US';
 const defaultCurrency = 'USD';
 
 
-export function PrettyCurrency(
+function PrettyCurrency(
   number,
   roundToInteger = true,
   locale = defaultLocale,
@@ -33,7 +32,7 @@ export function PrettyCurrency(
 }
 
 
-export function PrettyNumber(number, precision = 2, locale = defaultLocale) {
+function PrettyNumber(number, precision = 2, locale = defaultLocale) {
   TypeCheck(number, 'number');
   TypeCheck(precision, 'number', false);
   TypeCheck(locale, 'string', false);
@@ -45,7 +44,7 @@ export function PrettyNumber(number, precision = 2, locale = defaultLocale) {
 }
 
 
-export function PrettyPercent(number, precision = 2, locale = defaultLocale) {
+function PrettyPercent(number, precision = 2, locale = defaultLocale) {
   TypeCheck(number, 'number');
   TypeCheck(precision, 'number', false);
   TypeCheck(locale, 'string', false);
@@ -55,4 +54,10 @@ export function PrettyPercent(number, precision = 2, locale = defaultLocale) {
     minimumFractionDigits: precision,
   });
   return percentage;
+}
+
+module.exports = {
+    PrettyCurrency: PrettyCurrency,
+    PrettyNumber: PrettyNumber,
+    PrettyPercent: PrettyPercent,
 }
