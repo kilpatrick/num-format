@@ -3485,6 +3485,10 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
+typecheck-extended@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/typecheck-extended/-/typecheck-extended-1.0.1.tgz#54d379e1c937fd21df342a89bd13c8f4b1643d33"
+
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
