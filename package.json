@@ -1,6 +1,6 @@
 {
-  "name": "pretty-number",
-  "version": "0.1.0",
+  "name": "num-format",
+  "version": "0.0.0",
   "description": "Pretty Printer for Currency, Percentages, Numbers",
   "license": "MIT",
   "author": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kilpatrick/pretty-number"
+    "url": "https://github.com/kilpatrick/num-format"
   },
   "readmeFilename": "README.md",
   "main": "index.js",
