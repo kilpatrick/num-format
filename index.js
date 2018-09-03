@@ -4,7 +4,7 @@ const defaultLocale = 'en-US';
 const defaultCurrency = 'USD';
 
 
-function PrettyCurrency(
+function FormatCurrency(
   number,
   roundToInteger = true,
   locale = defaultLocale,
@@ -32,7 +32,7 @@ function PrettyCurrency(
 }
 
 
-function PrettyNumber(number, precision = 2, locale = defaultLocale) {
+function FormatNumber(number, precision = 2, locale = defaultLocale) {
   TypeCheck(number, 'number');
   TypeCheck(precision, 'number', false);
   TypeCheck(locale, 'string', false);
@@ -44,7 +44,7 @@ function PrettyNumber(number, precision = 2, locale = defaultLocale) {
 }
 
 
-function PrettyPercent(number, precision = 2, locale = defaultLocale) {
+function FormatPercent(number, precision = 2, locale = defaultLocale) {
   TypeCheck(number, 'number');
   TypeCheck(precision, 'number', false);
   TypeCheck(locale, 'string', false);
@@ -57,7 +57,7 @@ function PrettyPercent(number, precision = 2, locale = defaultLocale) {
 }
 
 module.exports = {
-    PrettyCurrency: PrettyCurrency,
-    PrettyNumber: PrettyNumber,
-    PrettyPercent: PrettyPercent,
+    FormatCurrency: FormatCurrency,
+    FormatNumber: FormatNumber,
+    FormatPercent: FormatPercent,
 }
