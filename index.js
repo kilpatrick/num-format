@@ -1,4 +1,4 @@
-var TypeCheck = require('typecheck-extended');
+const TypeCheck = require('typecheck-extended');
 
 const defaultLocale = 'en-US';
 const defaultCurrency = 'USD';
@@ -57,7 +57,7 @@ function FormatPercent(number, precision = 2, locale = defaultLocale) {
 }
 
 module.exports = {
-    FormatCurrency: FormatCurrency,
-    FormatNumber: FormatNumber,
-    FormatPercent: FormatPercent,
-}
+  FormatCurrency,
+  FormatNumber,
+  FormatPercent,
+};
