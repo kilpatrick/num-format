@@ -15,19 +15,20 @@
   "readmeFilename": "README.md",
   "main": "index.js",
   "dependencies": {
-    "typecheck-extended": "1.0.1"
+    "typecheck-extended": "1.0.3"
   },
   "scripts": {
     "test": "jest"
   },
   "devDependencies": {
-    "coveralls": "3.0.2",
-    "eslint": "4.13.1",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-plugin-import": "2.9.0",
-    "eslint-plugin-jasmine": "2.9.2",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "jest": "23.3.0"
+    "coveralls": "3.0.7",
+    "eslint": "6.5.1",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jasmine": "2.10.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "24.9.0"
   },
   "keywords": [
     "pretty print",
