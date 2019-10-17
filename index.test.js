@@ -1,6 +1,8 @@
-var FormatCurrency = require('./').FormatCurrency;
-var FormatNumber = require('./').FormatNumber;
-var FormatPercent = require('./').FormatPercent;
+const {
+  FormatCurrency,
+  FormatNumber,
+  FormatPercent,
+} = require('./');
 
 
 describe('Format Number', () => {
