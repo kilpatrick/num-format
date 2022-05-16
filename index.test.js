@@ -2,7 +2,7 @@ const {
   FormatCurrency,
   FormatNumber,
   FormatPercent,
-} = require('./');
+} = require('.');
 
 
 describe('Format Number', () => {
