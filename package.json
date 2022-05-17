@@ -18,7 +18,8 @@
     "typecheck-extended": "1.0.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "ci-test-w-coverage": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "devDependencies": {
     "coveralls": "3.1.1",
