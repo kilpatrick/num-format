@@ -98,4 +98,4 @@ In the current version of num-format it should be assumed that only `en-US` form
 
 
 ---
-###### num-format uses [Semantic Versioning](https://semver.org). | Copyright © 2018 Chris Kilpatrick. Released under [MIT License](https://opensource.org/licenses/MIT).
+###### num-format uses [Semantic Versioning](https://semver.org). | Copyright © 2022 Chris Kilpatrick. Released under [MIT License](https://opensource.org/licenses/MIT).
